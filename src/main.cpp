@@ -1,6 +1,8 @@
 #include "guess_the_number/guess_the_number.hpp"
+#include "hangman/hangman.hpp"
+#include <iostream>
 
 int main()
 {
-    play_guess_the_number();
+    std::cout << pick_a_random_word() << std::endl;
 }

@@ -49,7 +49,7 @@
 #### :heavy_check_mark: [Write small functions](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/write-small-functions/) 
 
 ---
-## Assignments
+## Assignments ♣ 
 
 #### :heavy_check_mark: Guess the number
 

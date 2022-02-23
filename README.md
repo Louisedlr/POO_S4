@@ -36,7 +36,7 @@
 
 ---
 
-## LEVEL 2 :sun_with_face 🦋 🦋 :
+## LEVEL 2 🦋 🦋 :
 
 #### :heavy_check_mark: [Make it work, then make it good](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/make-it-work-then-make-it-good/) 
 

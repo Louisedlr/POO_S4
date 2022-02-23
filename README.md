@@ -2,7 +2,7 @@
 
 [Link to Jules' lessons](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/) 
 
-## LEVEL 1 :sun_with_face:
+## LEVEL 1 🦋 :
 
 #### :heavy_check_mark: [Install a compiler](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/install-a-compiler/)
 

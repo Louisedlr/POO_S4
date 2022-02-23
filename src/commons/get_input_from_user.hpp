@@ -6,7 +6,7 @@ T get_input_from_user()
 {
     // TODO ;) Use std::cin to get an int, and then return it
     T user_input;
-    std::cout << "Enter a value : ";
+    std::cout << "Enter an input : ";
     std::cin >> user_input;
     while (std::cin.fail()) {
         std::cin.clear();

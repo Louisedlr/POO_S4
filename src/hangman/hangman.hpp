@@ -1,3 +1,5 @@
 #pragma once
+#include <string>
 
-const char* pick_a_random_word();
+const std::string pick_a_random_word();
+void              play_hangman();

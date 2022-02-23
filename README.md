@@ -23,7 +23,7 @@
 #### :heavy_check_mark: [Consistency in style](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/consistency-in-style/) 
 
 ---
-#### Use an IDE :heavy_check_mark:
+#### notes:
 <ul>
     <li><kbd>F2</kbd>  =   Rename Symbol</li>
     <li><kbd>F12</kbd> =   Go to définition</li>
@@ -33,3 +33,17 @@
     <li><kdb>CTRL</kdb> + <kdb>F</kdb>   =   Global research in file</li>
     <li><kdb>CTRL</kdb> + <kdb>SHIFT</kdb> + <kdb>F</kdb>   =   Global research in project</li>
 </ul>
+
+---
+
+## LEVEL 2 :sun_with_face 🦋 🦋 :
+
+#### :heavy_check_mark: [Make it work, then make it good](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/make-it-work-then-make-it-good/) 
+
+#### :heavy_check_mark: [Prefer free functions](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/prefer-free-functions/) 
+
+#### :heavy_check_mark: [Design cohesive classes](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/design-cohesive-classes/)
+
+#### :heavy_check_mark: [Use structs to group data](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/use-structs-to-group-data/) 
+
+#### :heavy_check_mark: [Write small functions](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/write-small-functions/) 

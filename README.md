@@ -47,3 +47,10 @@
 #### :heavy_check_mark: [Use structs to group data](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/use-structs-to-group-data/) 
 
 #### :heavy_check_mark: [Write small functions](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/write-small-functions/) 
+
+---
+## Assignments
+
+#### :heavy_check_mark: Guess the number
+
+#### 🕐 Hangman

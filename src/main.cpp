@@ -1,7 +1,7 @@
 #include <iostream>
-#include "./hangman/hangman.hpp"
+#include "./menu/menu.hpp"
 
 int main()
 {
-    play_hangman();
+    menu();
 }

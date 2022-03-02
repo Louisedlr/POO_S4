@@ -13,7 +13,7 @@ const std::string pick_a_random_word()
     return words[random_index];
 }
 
-bool is_user_input_is_in_word(char user_input, std::string word, std::string& display_word, unsigned int& letters_found)
+bool is_user_input_in_word(char user_input, std::string word, std::string& display_word, unsigned int& letters_found)
 {
     bool is_in_word;
     for (unsigned int i = 0; i < word.size(); i++) {
@@ -41,6 +41,14 @@ void display_end_game(int& player_life)
     }
 }
 
+void display_diplay_word(std::string& display_word)
+{
+    for (unsigned int i = 0; i < display_word.size(); i++) {
+        std::cout << display_word[i] << " ";
+    }
+    std::cout << std::endl;
+}
+
 void play_hangman()
 {
     int               player_life = 8;
@@ -50,10 +58,9 @@ void play_hangman()
     std::string       display_word(random_word.size(), '_');
     while (letters_found < random_word.size() && player_life > 0) {
         std::cout << "You have " << player_life << " lives." << std::endl;
-        std::cout << display_word;
-        std::cout << std::endl;
+        display_diplay_word(display_word);
         user_input = get_input_from_user<char>();
-        if (!is_user_input_is_in_word(user_input, random_word, display_word, letters_found)) {
+        if (!is_user_input_in_word(user_input, random_word, display_word, letters_found)) {
             player_life--;
         }
     }

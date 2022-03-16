@@ -26,12 +26,15 @@ void check_user_input(char& user_input)
         switch (user_input) {
         case '1':
             play_guess_the_number();
+            quit = true;
             break;
         case '2':
             play_hangman();
+            quit = true;
             break;
         case '3':
             play_noughts_and_crosses();
+            quit = true;
             break;
         case 'q':
             quit = true;

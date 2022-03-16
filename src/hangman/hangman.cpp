@@ -56,6 +56,7 @@ void play_hangman()
     unsigned int      letters_found = 0;
     const std::string random_word   = pick_a_random_word();
     std::string       display_word(random_word.size(), '_');
+    
     while (letters_found < random_word.size() && player_life > 0) {
         std::cout << "You have " << player_life << " lives." << std::endl;
         display_diplay_word(display_word);

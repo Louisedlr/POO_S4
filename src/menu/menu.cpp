@@ -3,6 +3,7 @@
 #include <string>
 #include "../guess_the_number/guess_the_number.hpp"
 #include "../hangman/hangman.hpp"
+#include "../noughts_and_crosses/noughts_and_crosses.hpp"
 
 void menu()
 {
@@ -11,6 +12,7 @@ void menu()
         std::cout << "What do you want to do ? " << std::endl;
         std::cout << "1 : Play \" Guess the Number \" " << std::endl;
         std::cout << "2 : Play \" Hangman \" " << std::endl;
+        std::cout << "3 : Play \" Noughts and Crosses \" " << std::endl;
         std::cout << "q : Quit " << std::endl;
         std::cin >> user_input;
         check_user_input(user_input);
@@ -27,6 +29,9 @@ void check_user_input(char& user_input)
             break;
         case '2':
             play_hangman();
+            break;
+        case '3':
+            play_noughts_and_crosses();
             break;
         case 'q':
             quit = true;

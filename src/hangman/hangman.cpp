@@ -1,4 +1,5 @@
 #include "hangman.hpp"
+#include <algorithm>
 #include <array>
 #include <iostream>
 #include <string>
@@ -18,13 +19,10 @@ bool is_user_input_in_word(char user_input, std::string word, std::string& displ
     bool is_in_word;
     for (unsigned int i = 0; i < word.size(); i++) {
         if (word[i] == user_input) {
-            display_word[i] = user_input;
             letters_found++;
             is_in_word = true;
+            std::replace(display_word.begin(), display_word.end(), display_word[i], user_input);
         }
-    }
-    for (auto x : word) {
-        std::cout << x << std::endl;
     }
     if (is_in_word) {
         return true;

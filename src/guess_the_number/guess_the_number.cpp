@@ -5,9 +5,9 @@
 
 void play_guess_the_number()
 {
-    auto random_number = rand<int>(0, 100);
-    bool is_finished   = false;
-    int  user_number;
+    const auto random_number = rand<int>(0, 100);
+    bool       is_finished   = false;
+    int        user_number;
     while (!is_finished) {
         user_number = get_input_from_user<int>();
         if (user_number == random_number) {

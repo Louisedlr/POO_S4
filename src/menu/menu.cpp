@@ -7,21 +7,20 @@
 
 void menu()
 {
-   
-        char user_input;
-        std::cout << "What do you want to do ? " << std::endl;
-        std::cout << "1 : Play \" Guess the Number \" " << std::endl;
-        std::cout << "2 : Play \" Hangman \" " << std::endl;
-        std::cout << "3 : Play \" Noughts and Crosses \" " << std::endl;
-        std::cout << "q : Quit " << std::endl;
-        std::cin >> user_input;
-        check_user_input(user_input);
+    char user_input;
+    std::cout << "What do you want to do ? " << std::endl;
+    std::cout << "1 : Play \" Guess the Number \" " << std::endl;
+    std::cout << "2 : Play \" Hangman \" " << std::endl;
+    std::cout << "3 : Play \" Noughts and Crosses \" " << std::endl;
+    std::cout << "q : Quit " << std::endl;
+    std::cin >> user_input;
+    check_user_input(user_input);
 }
 
 void check_user_input(char& user_input)
 {
     bool quit = false;
-    
+
     while (!quit) {
         switch (user_input) {
         case '1':

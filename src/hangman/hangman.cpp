@@ -9,7 +9,7 @@
 const std::string pick_a_random_word()
 {
     const std::array<std::string, 5> words        = {"bonjour", "courgette", "biscuit", "plante", "cactus"};
-    auto                             random_index = rand<int>(0, words.size() - 1);
+    const auto                       random_index = rand<int>(0, words.size() - 1);
     return words[random_index];
 }
 
@@ -22,6 +22,9 @@ bool is_user_input_in_word(char user_input, std::string word, std::string& displ
             letters_found++;
             is_in_word = true;
         }
+    }
+    for (auto x : word) {
+        std::cout << x << std::endl;
     }
     if (is_in_word) {
         return true;

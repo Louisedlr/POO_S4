@@ -5,7 +5,7 @@
 
 void play_guess_the_number()
 {
-    int  random_number = rand<int>(0, 100);
+    auto random_number = rand<int>(0, 100);
     bool is_finished   = false;
     int  user_number;
     while (!is_finished) {

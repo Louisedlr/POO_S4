@@ -48,9 +48,26 @@
 
 #### :heavy_check_mark: [Write small functions](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/write-small-functions/) 
 
+#### :heavy_check_mark: [DRY : Don't repeat yourself](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/dry-dont-repeat-yourself/) 
+
+#### :heavy_check_mark: [Enums](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/enums/) 
+
+#### :heavy_check_mark: [Split problems in small pieces](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/split-problems-in-small-pieces/) 
+
+#### :heavy_check_mark: [Composition over Inheritance](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/composition-over-inheritance/) 
+
+
+## LEVEL 3 🦋 🦋 🦋 :
+
+#### :heavy_check_mark: [std::vector](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/vector/) 
+
 ---
 ## Assignments ♣ 
 
 #### :heavy_check_mark: Guess the number
 
-#### 🕐 Hangman
+#### :heavy_check_mark: Hangman
+
+#### :heavy_check_mark: Adding a menu 
+
+#### 🕐 Noughts and Crosses

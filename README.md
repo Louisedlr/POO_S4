@@ -56,6 +56,7 @@
 
 #### :heavy_check_mark: [Composition over Inheritance](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/composition-over-inheritance/) 
 
+---
 
 ## LEVEL 3 🦋 🦋 🦋 :
 

@@ -62,6 +62,10 @@ void draw_nought(CellIndex index, int board_size, p6::Context& ctx)
     ctx.stroke_weight = 0.4f * cell_radius(board_size);
     ctx.circle(p6::Center{cell_center(index, board_size)},
                p6::Radius{0.9f * cell_radius(board_size)});
+    ctx.stroke = {171 / 255.f, 212 / 255.f, 235 / 255.f};
+    ctx.fill   = {171 / 255.f, 212 / 255.f, 235 / 255.f};
+    ctx.circle(p6::Center{cell_center(index, board_size)},
+               p6::Radius{0.6f * cell_radius(board_size)});
 }
 
 void draw_cross(CellIndex index, int board_size, p6::Context& ctx)
@@ -90,7 +94,7 @@ void play_noughts_and_crosses()
         if (hovered_cell.has_value()) {
             ctx.fill = {74 / 255.f, 137 / 255.f, 255 / 255.f, 1.f};
             // draw_cell(*hovered_cell, board_size, ctx);
-            draw_cross(*hovered_cell, board_size, ctx);
+            draw_nought(*hovered_cell, board_size, ctx);
         }
     };
     ctx.start();

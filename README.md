@@ -61,6 +61,46 @@
 ## LEVEL 3 🦋 🦋 🦋 :
 
 #### :heavy_check_mark: [std::vector](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/vector/) 
+#### :heavy_check_mark: [Minimize dependencies](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/minimize-dependencies/)
+#### :heavy_check_mark: [Strong Types](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/strong-types/)
+#### :heavy_check_mark: [Use libraries](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/use-libraries/)
+#### :heavy_check_mark: [Range-based for loop](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/range-based-for-loop/)
+#### :heavy_check_mark: [Testing](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/testing/)
+#### :heavy_check_mark: [Master your IDE](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/master-your-ide/)
+#### :heavy_check_mark: [std::optional](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/optional/)
+---
+#### notes:
+https://www.cppstories.com/2018/05/using-optional/
+---
+#### :heavy_check_mark: [Single Source of Truth](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/single-source-of-truth/)
+#### :heavy_check_mark: [Code reviews](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/code-reviews/)
+---
+#### notes:
+https://www.youtube.com/watch?v=ta3S8CRN2TM&t=878s
+---
+#### :heavy_check_mark: [const](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/const/)
+#### :heavy_check_mark: [Documentation](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/documentation/)
+#### :heavy_check_mark: [Don't overfocus on performance](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/dont-overfocus-on-performance/)
+#### :heavy_check_mark: [Git submodules](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/git-submodules/)
+#### notes:
+<ul>
+    **with GitKraken**
+    **with command line : **
+    git submodule add https://github.com/url/to/the/repo folder/where/to/clone
+    git submodule update --init --recursive
+</ul>
+
+**Cloning a project that uses a submodule**
+git clone --recursive https://github.com/url/to/the/repo
+---
+#### :heavy_check_mark: [assert](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/assert/)
+#### :heavy_check_mark: [auto](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/auto/)
+#### :heavy_check_mark: [Markdown](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/Markdown/)
+#### :heavy_check_mark: [Smart Pointers](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/smart-pointers/)
+#### :heavy_check_mark: [std::function](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/std-function/)
+#### :heavy_check_mark: [Dependency Injection](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/dependency-injection/)
+
+
 
 ---
 ## Assignments ♣ 

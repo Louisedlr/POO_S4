@@ -70,13 +70,13 @@
 #### :heavy_check_mark: [std::optional](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/optional/)
 ---
 #### notes:
-https://www.cppstories.com/2018/05/using-optional/
+###https://www.cppstories.com/2018/05/using-optional/
 ---
 #### :heavy_check_mark: [Single Source of Truth](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/single-source-of-truth/)
 #### :heavy_check_mark: [Code reviews](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/code-reviews/)
 ---
 #### notes:
-https://www.youtube.com/watch?v=ta3S8CRN2TM&t=878s
+###https://www.youtube.com/watch?v=ta3S8CRN2TM&t=878s
 ---
 #### :heavy_check_mark: [const](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/const/)
 #### :heavy_check_mark: [Documentation](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/documentation/)
@@ -84,14 +84,16 @@ https://www.youtube.com/watch?v=ta3S8CRN2TM&t=878s
 #### :heavy_check_mark: [Git submodules](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/git-submodules/)
 #### notes:
 <ul>
-    **with GitKraken**
-    **with command line : **
-    git submodule add https://github.com/url/to/the/repo folder/where/to/clone
-    git submodule update --init --recursive
+    <li>**with GitKraken**</li>
+    <li>**with command line : **</li>
+    <ul>
+        ###git submodule add https://github.com/url/to/the/repo folder/where/to/clone
+        ###git submodule update --init --recursive
+    </ul>
 </ul>
 
-**Cloning a project that uses a submodule**
-git clone --recursive https://github.com/url/to/the/repo
+###**Cloning a project that uses a submodule**
+###git clone --recursive https://github.com/url/to/the/repo
 ---
 #### :heavy_check_mark: [assert](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/assert/)
 #### :heavy_check_mark: [auto](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/auto/)

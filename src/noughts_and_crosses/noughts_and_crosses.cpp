@@ -83,8 +83,15 @@ void draw_cross(CellIndex index, int board_size, p6::Context& ctx)
 void play_noughts_and_crosses()
 {
     static constexpr int board_size = 3;
-    auto                 ctx        = p6::Context{{800, 800, "Noughts and Crosses"}};
-    ctx.update                      = [&]() {
+    Board                board(board_size);
+    board.print_board();
+    auto ctx = p6::Context{{800, 800, "Noughts and Crosses"}};
+
+    ctx.mouse_pressed = [&](p6::MouseButton event) {
+        ctx.circle(p6::Center{event.position},
+                   p6::Radius{0.2f});
+    };
+    ctx.update = [&]() {
         ctx.background({171 / 255.f, 212 / 255.f, 235 / 255.f});
         ctx.stroke_weight = 0.01f;
         ctx.stroke        = {1.f, 1.f, 1.f, 1.f};
@@ -97,5 +104,6 @@ void play_noughts_and_crosses()
             draw_nought(*hovered_cell, board_size, ctx);
         }
     };
+
     ctx.start();
 }

@@ -20,6 +20,24 @@ std::optional<CellIndex> cell_hovered_by(glm::vec2 position, int board_size)
     }
 }
 
+bool player_can_play(Board board, int count, std::optional<CellIndex> object_to_draw)
+{
+    if (board.get_size() * board.get_size() > count) {
+        for (auto i : board.get_cross()) {
+            if (i.value().x == object_to_draw.value().x && i.value().y == object_to_draw.value().y) {
+                return false;
+            }
+        }
+        for (auto i : board.get_nought()) {
+            if (i.value().x == object_to_draw.value().x && i.value().y == object_to_draw.value().y) {
+                return false;
+            }
+        }
+        return true;
+    }
+    return false;
+}
+
 void play_noughts_and_crosses()
 {
     static constexpr int board_size = 3;
@@ -27,6 +45,7 @@ void play_noughts_and_crosses()
     board.print_board();
     auto ctx    = p6::Context{{800, 800, "Noughts and Crosses"}};
     bool player = true;
+    int  count  = 0;
 
     ctx.mouse_pressed = [&](p6::MouseButton event) {
         ctx.circle(p6::Center{event.position},
@@ -51,13 +70,17 @@ void play_noughts_and_crosses()
 
         ctx.mouse_pressed = [&](p6::MouseButton event) {
             const auto object_to_draw = cell_hovered_by(event.position, board_size);
-            if (player) {
-                board.add_nought(object_to_draw);
-                player = !player;
-            }
-            else {
-                board.add_cross(object_to_draw);
-                player = !player;
+            if (player_can_play(board, count, object_to_draw)) {
+                if (player) {
+                    board.add_nought(object_to_draw);
+                    count++;
+                    player = !player;
+                }
+                else {
+                    board.add_cross(object_to_draw);
+                    count++;
+                    player = !player;
+                }
             }
         };
     };

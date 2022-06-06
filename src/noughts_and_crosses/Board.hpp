@@ -13,8 +13,8 @@ class Board {
 private:
     size_t                                _size;
     std::vector<char>                     _board;
-    std::vector<std::optional<CellIndex>> cross_to_draw;
-    std::vector<std::optional<CellIndex>> nought_to_draw;
+    std::vector<std::optional<CellIndex>> _cross_to_draw;
+    std::vector<std::optional<CellIndex>> _nought_to_draw;
 
 public:
     //void draw_board(int size, p6::Context& ctx);
@@ -22,15 +22,23 @@ public:
         : _size(size), _board(board)
     {
     }
-    int               get_size() { return _size; }
-    std::vector<char> get_board() { return _board; }
-    void              add_cross(std::optional<CellIndex> cross)
+    int                                   get_size() { return _size; }
+    std::vector<char>                     get_board() { return _board; }
+    std::vector<std::optional<CellIndex>> get_cross()
     {
-        cross_to_draw.push_back(cross);
+        return _cross_to_draw;
+    }
+    std::vector<std::optional<CellIndex>> get_nought()
+    {
+        return _nought_to_draw;
+    }
+    void add_cross(std::optional<CellIndex> cross)
+    {
+        _cross_to_draw.push_back(cross);
     }
     void add_nought(std::optional<CellIndex> nought)
     {
-        nought_to_draw.push_back(nought);
+        _nought_to_draw.push_back(nought);
     }
     void print_board()
     {

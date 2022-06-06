@@ -59,10 +59,10 @@ void Board::draw_board(int size, p6::Context& ctx)
             draw_cell({x, y}, size, ctx);
         }
     }
-    for (auto x : cross_to_draw) {
+    for (auto x : _cross_to_draw) {
         draw_cross(x.value(), size, ctx);
     }
-    for (auto x : nought_to_draw) {
+    for (auto x : _nought_to_draw) {
         draw_nought(x.value(), size, ctx);
     }
 }

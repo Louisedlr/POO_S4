@@ -130,6 +130,7 @@
 ---
 
 ## LEVEL 4 🦋 🦋 🦋 🦋:
+
 #### :heavy_check_mark: [<random>](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/random/)
 
 ---
@@ -141,4 +142,5 @@
 
 #### :heavy_check_mark: Adding a menu 
 
-#### 🕐 Noughts and Crosses
+#### 🕐 Noughts and Crosses 
+<p> functional unless verified by winner </p>

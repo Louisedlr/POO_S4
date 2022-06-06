@@ -87,8 +87,8 @@
     <li>with GitKraken</li>
     <li>with command line : </li>
     <ul>
-        #### git submodule add https://github.com/url/to/the/repo folder/where/to/clone
-        #### git submodule update --init --recursive
+         <p>git submodule add https://github.com/url/to/the/repo folder/where/to/clone</p>
+         <p>git submodule update --init --recursive</p>
     </ul>
 </ul>
 

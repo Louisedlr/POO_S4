@@ -101,6 +101,31 @@
 #### :heavy_check_mark: [Smart Pointers](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/smart-pointers/)
 #### :heavy_check_mark: [std::function](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/std-function/)
 #### :heavy_check_mark: [Dependency Injection](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/dependency-injection/)
+#### :heavy_check_mark: [Error Handling](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/error-handling/)
+#### :heavy_check_mark: [Git Pull Requests](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/git-pull-request/)
+#### :heavy_check_mark: [Advanced Git features](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/advanced-git-features/)
+#### :heavy_check_mark: [CMake](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/cmake/)
+#### :heavy_check_mark: [Functional programming](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/functional-programming/)
+#### :heavy_check_mark: [Move semantics](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/move-semantics/)
+#### :heavy_check_mark: [The Rule of 5](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/rule-of-5/)
+#### :heavy_check_mark: [State and Strategy](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/state-and-strategy/)
+#### :heavy_check_mark: [std::variant](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/variant/)
+#### :heavy_check_mark: [Cache and Branches](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/cache-and-branches/)
+---
+#### notes:
+#### https://youtu.be/EmzdmqUWq3o
+---
+#### :heavy_check_mark: [Multithreading](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/multithreading/)
+---
+#### notes:
+#### jthread in C++20
+---
+#### :heavy_check_mark: [Polymorphism](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/polymorphism/)
+---
+#### notes:
+#### https://www.fluentcpp.com/2017/04/28/extract-interface-cpp/
+---
+#### :heavy_check_mark: [Space out your code](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/space-out-your-code/)
 
 
 

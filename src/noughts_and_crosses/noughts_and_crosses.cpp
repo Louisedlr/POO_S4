@@ -3,7 +3,7 @@
 #include <iostream>
 #include <optional>
 
-std::optional<CellIndex> cell_hovered_by(glm::vec2 position, int board_size)
+std::optional<CellIndex> cell_hovered_by(const glm::vec2 position, const int board_size)
 {
     const auto pos   = p6::map(position,
                              glm::vec2{-1.f}, glm::vec2{1.f},
@@ -20,7 +20,7 @@ std::optional<CellIndex> cell_hovered_by(glm::vec2 position, int board_size)
     }
 }
 
-bool player_can_play(Board board, int count, std::optional<CellIndex> object_to_draw)
+bool player_can_play(Board board, const int count, const std::optional<CellIndex> object_to_draw)
 {
     if (board.get_size() * board.get_size() > count) {
         for (auto i : board.get_cross()) {

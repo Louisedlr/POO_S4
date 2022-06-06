@@ -41,9 +41,9 @@ public:
     void draw_board(int size, p6::Context& ctx);
 };
 
-float     cell_radius(int board_size);
-glm::vec2 cell_bottom_left_corner(CellIndex index, int board_size);
-void      draw_cell(CellIndex index, int board_size, p6::Context& ctx);
-glm::vec2 cell_center(CellIndex index, int board_size);
-void      draw_nought(CellIndex index, int board_size, p6::Context& ctx);
-void      draw_cross(CellIndex index, int board_size, p6::Context& ctx);
+float     cell_radius(const int board_size);
+glm::vec2 cell_bottom_left_corner(const CellIndex index, const int board_size);
+void      draw_cell(const CellIndex index, const int board_size, p6::Context& ctx);
+glm::vec2 cell_center(const CellIndex index, const int board_size);
+void      draw_nought(const CellIndex index, const int board_size, p6::Context& ctx);
+void      draw_cross(const CellIndex index, const int board_size, p6::Context& ctx);

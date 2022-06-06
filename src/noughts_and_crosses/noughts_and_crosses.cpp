@@ -42,10 +42,9 @@ void play_noughts_and_crosses()
 {
     static constexpr int board_size = 3;
     Board                board(board_size);
-    board.print_board();
-    auto ctx    = p6::Context{{800, 800, "Noughts and Crosses"}};
-    bool player = true;
-    int  count  = 0;
+    auto                 ctx    = p6::Context{{800, 800, "Noughts and Crosses"}};
+    bool                 player = true;
+    int                  count  = 0;
 
     ctx.mouse_pressed = [&](p6::MouseButton event) {
         ctx.circle(p6::Center{event.position},
@@ -83,6 +82,9 @@ void play_noughts_and_crosses()
                 }
             }
         };
+        if (count == board.get_size() * board.get_size()) {
+            ctx.stop();
+        }
     };
 
     ctx.start();

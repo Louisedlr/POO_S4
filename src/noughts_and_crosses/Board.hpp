@@ -12,18 +12,16 @@ struct CellIndex {
 class Board {
 private:
     size_t                                _size;
-    std::vector<char>                     _board;
     std::vector<std::optional<CellIndex>> _cross_to_draw;
     std::vector<std::optional<CellIndex>> _nought_to_draw;
 
 public:
     //void draw_board(int size, p6::Context& ctx);
-    Board(size_t size, std::vector<char> board = std::vector<char>(10, ' '))
-        : _size(size), _board(board)
+    Board(size_t size)
+        : _size(size)
     {
     }
     int                                   get_size() { return _size; }
-    std::vector<char>                     get_board() { return _board; }
     std::vector<std::optional<CellIndex>> get_cross()
     {
         return _cross_to_draw;
@@ -39,13 +37,6 @@ public:
     void add_nought(std::optional<CellIndex> nought)
     {
         _nought_to_draw.push_back(nought);
-    }
-    void print_board()
-    {
-        for (const auto& x : _board) {
-            std::cout << x << ",";
-        }
-        std::cout << std::endl;
     }
     void draw_board(int size, p6::Context& ctx);
 };
